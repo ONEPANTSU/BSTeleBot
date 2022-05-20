@@ -13,5 +13,8 @@ async def cmd_test1(message: types.Message):
     await message.reply("Hello! I'm Bonch-Science Bot!")
 
 
+def func():
+    return 0
+
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates=True)
